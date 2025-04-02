@@ -1,0 +1,26 @@
+.app-container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+  
+  /* Light theme (default) */
+  .app-container.light {
+    --sidebar-bg: #f0f4f9;
+    --main-bg: #ffffff;
+    --text-color: #3d3d3d;
+    --card-bg: #f0f4f9;
+    --input-bg: #f0f4f9;
+    --nav-border: #e2e2e2;
+  }
+  
+  /* Dark theme */
+  .app-container.dark {
+    --sidebar-bg: #1a1a1a;
+    --main-bg: #212121;
+    --text-color: #e0e0e0;
+    --card-bg: #2d2d2d;
+    --input-bg: #2d2d2d;
+    --nav-border: #3d3d3d;
+  }

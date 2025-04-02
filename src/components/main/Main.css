@@ -1,0 +1,140 @@
+.main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    background-color: var(--main-bg);
+    color: var(--text-color);
+}
+
+.main .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 22px;
+    padding: 20px;
+    border-bottom: 1px solid var(--nav-border);
+}
+
+.main .nav img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.main-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.chat-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 100px;
+}
+
+.message {
+    display: flex;
+    gap: 15px;
+    max-width: 800px;
+}
+
+.message.bot {
+    align-self: flex-start;
+}
+
+.message.user {
+    align-self: flex-end;
+    flex-direction: row-reverse;
+}
+
+.message img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.message p {
+    padding: 15px;
+    border-radius: 18px;
+    line-height: 1.5;
+}
+
+.message.bot p {
+    background-color: var(--card-bg);
+    border-top-left-radius: 0;
+}
+
+.message.user p {
+    background-color: #4b90ff;
+    color: white;
+    border-top-right-radius: 0;
+}
+
+.main-bottom {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 0;
+    background-color: var(--main-bg);
+    border-top: 1px solid var(--nav-border);
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: var(--input-bg);
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.search-box img {
+    width: 24px;
+    cursor: pointer;
+}
+
+.search-box input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 8px;
+    font-size: 18px;
+    color: var(--text-color);
+}
+
+.search-box div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.search-box button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.bottom-info {
+    font-size: 13px;
+    margin: 15px auto;
+    text-align: center;
+    font-weight: 300;
+    max-width: 800px;
+    color: var(--text-color);
+    opacity: 0.7;
+}
