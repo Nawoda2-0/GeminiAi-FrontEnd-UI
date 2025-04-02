@@ -15,7 +15,9 @@ A beautiful and responsive Gemini AI chat interface built with React and Vite. T
 
 ## 📸 Screenshots
 
-![Gemini Clone Interface](https://via.placeholder.com/800x450?text=Gemini+Interface+Screenshot)
+![Gemini Clone Interface](https://github.com/Nawoda2-0/GeminiAi-FrontEnd-UI/blob/deac1332ba3ec5309ccd20a2f03c77b7962cdada/Screenshot%20(550).png)
+![Gemini Clone Interface](https://github.com/Nawoda2-0/GeminiAi-FrontEnd-UI/blob/deac1332ba3ec5309ccd20a2f03c77b7962cdada/Screenshot%20(551).png)
+![Gemini Clone Interface](https://github.com/Nawoda2-0/GeminiAi-FrontEnd-UI/blob/deac1332ba3ec5309ccd20a2f03c77b7962cdada/Screenshot%20(552).png)
 
 ## 🚀 Getting Started
 
